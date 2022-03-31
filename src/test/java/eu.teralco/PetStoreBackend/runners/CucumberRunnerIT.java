@@ -19,7 +19,7 @@ import com.privalia.qa.utils.BaseGTest;
                 "junit:target/CucumberRunnerIT.xml"
         }, features =
         {
-                "src/test/resources/features"
+                "src/test/resources/features/get_Pet_By_Id_api.feature"
         },
         glue = "classpath:eu.teralco.PetStoreBackend.glue")
 public class CucumberRunnerIT extends BaseGTest {
